@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay Khodiyar Fashion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #fff;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #c62828;
+    }
+    nav {
+      background: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #c62828;
+      font-weight: bold;
+    }
+    .section {
+      padding: 2rem;
+    }
+    .section h2 {
+      border-bottom: 2px solid #c62828;
+      padding-bottom: 0.5rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .product {
+      background: #fff;
+      padding: 1rem;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    footer {
+      background: #eee;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .button {
+      background: #c62828;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jay Khodiyar Fashion</h1>
+    <p>Traditional & Trendy Clothing for Men, Women & Kids</p>
+  </header>
+  <nav>
+    <a href="#men">Men's Wear</a>
+    <a href="#ladies">Ladies Wear</a>
+    <a href="#kids">Kids Wear</a>
+    <a href="#catalogue">Catalogue</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section" id="men">
+    <h2>Men's Wear</h2>
+    <div class="products">
+      <div class="product">
+        <img src="placeholder.jpg" alt="T-Shirt" />
+        <p>Men's T-Shirt</p>
+      </div>
+      <div class="product">
+        <img src="placeholder.jpg" alt="Full Sleeves" />
+        <p>Full Sleeves T-Shirt</p>
+      </div>
+      <div class="product">
+        <img src="placeholder.jpg" alt="Night Dress" />
+        <p>Night Dress</p>
+      </div>
+      <div class="product">
+        <img src="placeholder.jpg" alt="Gents Pant" />
+        <p>Gents Pant</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ladies">
+    <h2>Ladies Wear</h2>
+    <p>Coming Soon...</p>
+  </section>
+
+  <section class="section" id="kids">
+    <h2>Kids Wear</h2>
+    <h3>Boys</h3>
+    <p>Coming Soon...</p>
+    <h3>Girls</h3>
+    <p>Coming Soon...</p>
+  </section>
+
+  <section class="section" id="catalogue">
+    <h2>Download Catalogue</h2>
+    <a href="catalogue.pdf" class="button" download>Download PDF</a>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact & Orders</h2>
+    <p>Order via WhatsApp: <a href="https://wa.me/919999999999" target="_blank">Chat Now</a></p>
+    <p>Payments via UPI, PhonePe, Paytm only. No COD available.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Jay Khodiyar Fashion. All rights reserved.
+  </footer>
+</body>
+</html>
